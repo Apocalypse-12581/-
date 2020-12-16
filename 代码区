@@ -401,7 +401,7 @@ void loop()   //初始化已经完成了显示
   display.print(val);
 
   /*图片和文字提示*/
-  if(val<=100){
+  if(val<=120){
     //图片
     display.drawBitmap(78, 14, image_0, 50, 50, 1);
     //文字
